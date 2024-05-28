@@ -6,6 +6,7 @@ const Pricing = () => {
 
   return (
     <div className="flex justify-center flex-col gap-10 font-opensans mt-20">
+
       {/* Title and subtitle */}
       <div>
         <h1 className="font-playfair text-center text-4xl font-semibold mb-5">
@@ -16,6 +17,7 @@ const Pricing = () => {
           Upgrade for extra features and collaboration with your team.
         </p>
       </div>
+
       {/* Double button */}
       <button
         className="rounded-[2rem] flex items-center justify-center
@@ -50,6 +52,7 @@ const Pricing = () => {
 
       {/* Plans */}
       <div className="flex gap-5 w-full flex-col md:flex-row md:justify-center">
+        
         {/* Basic */}
         <div
           className="p-6 rounded-2xl bg-[hsla(0,0%,100%,.03)]
